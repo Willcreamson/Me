@@ -1,143 +1,263 @@
-# 🧠 ML Engineering Roadmap
+Franchement, si tu veux aller vers **robotique, systèmes autonomes, véhicules autonomes, agents intelligents, R&D IA**, je modifierais profondément la roadmap.
+
+Aujourd'hui, ta roadmap ressemble à celle d'un excellent **ML Engineer orienté business/data products** (recommandation, forecasting, MLOps, ETL, KPI, Power BI).
+
+Ce n'est pas la roadmap d'un ingénieur IA systèmes autonomes.
+
+Je la ferais évoluer vers quelque chose comme :
+
+---
+
+# 🧠 Autonomous Systems & AI Engineering Roadmap
 
 Hi, I'm William-Alexander.
 
-This repository documents my learning path towards becoming a Production ML Engineer focused on real-world decision systems and AI-driven optimization.
+This repository documents my journey toward becoming an AI Systems Engineer specialized in autonomous systems, intelligent decision-making, robotics, and large-scale optimization.
 
 ---
 
 ## 🎯 Objective
 
-Build production-grade AI systems that support real-world decision making under uncertainty, imperfect data, and business constraints.
+Build intelligent systems capable of perceiving, reasoning, planning, and acting in complex real-world environments.
 
-These systems are not only about prediction, but about:
-- understanding real-world processes (customers, markets, logistics)
-- modeling uncertainty and incomplete information
-- making robust and actionable decisions at scale
+Focus on AI systems where reliability, optimization, algorithmic efficiency, and decision-making under uncertainty are critical.
 
 ---
 
 ## 🧩 Core Focus Areas
 
-### 📊 Machine Learning (Applied, not theoretical)
-- Supervised learning (classification, regression)
-- Time series forecasting in noisy environments
-- Feature engineering driven by domain understanding
-- Robust evaluation under distribution shift
-- Handling bias in real-world data (missing data, censoring)
+### 🤖 Autonomous Decision Systems
 
-### 🎯 Decision Systems (Core specialization)
-- Recommender systems (ranking, personalization)
-- Learning to rank models
-- Contextual bandits (exploration vs exploitation)
-- Optimization under uncertainty and business constraints
-- From prediction → decision pipelines
+* Sequential decision making
+* Reinforcement Learning
+* Contextual Bandits
+* Planning and Search
+* Multi-Agent Systems
+* Decision making under uncertainty
 
-### 🔄 Data Engineering (Real-world data systems)
-- SQL (advanced querying and analytics)
-- ETL pipelines (Python)
-- Data cleaning and transformation at scale
-- Designing reliable data models for ML systems
+---
 
-### 🚀 Production / MLOps
-- FastAPI for model serving and decision APIs
-- Docker for reproducible deployment
-- AWS fundamentals (S3, EC2, RDS)
-- MLflow for experiment tracking
-- Monitoring models in production (drift, performance decay)
+### 🚗 Autonomous Systems & Robotics
+
+* Localization and Mapping
+* Sensor Fusion
+* State Estimation
+* Motion Planning
+* Robot Navigation
+* Autonomous Agents
+
+---
+
+### 🧠 Machine Learning & Deep Learning
+
+* Representation Learning
+* Deep Learning Foundations
+* Sequence Models
+* Transformer Architectures
+* Probabilistic Machine Learning
+* Learning under uncertainty
+
+---
+
+### ⚙️ Algorithms & Optimization
+
+* Advanced Data Structures
+* Graph Algorithms
+* Dynamic Programming
+* Approximation Algorithms
+* Convex Optimization
+* Large-Scale Optimization
+
+---
+
+### 🖥️ Systems Engineering
+
+* Distributed Systems
+* Concurrent Programming
+* High Performance Computing
+* Real-Time Systems
+* Reliable Software Architecture
 
 ---
 
 ## ⚙️ Technical Stack
 
-### 🧠 Programming & ML
-- Python (core language)
-- Pandas, NumPy
-- Scikit-learn
-- XGBoost / LightGBM (industry standard for tabular ML)
-- PyTorch (for deep learning foundations)
+### 💻 Programming
 
-### 📊 Data & Storage
-- PostgreSQL
-- Advanced SQL (joins, window functions, cohort analysis)
-- Data modeling (business-oriented schemas, not just normalization)
-
-### 🔄 Data Engineering
-- ETL pipelines (Python-based)
-- API ingestion and scraping
-- Airflow / Prefect (workflow orchestration)
-
-### 🚀 Backend & Deployment
-- FastAPI (ML services & decision APIs)
-- REST APIs
-- Docker
-- Microservices basics for ML systems
-
-### ☁️ Cloud & MLOps
-- AWS (S3, EC2, RDS – practical usage)
-- MLflow (experiment tracking & model registry)
-- CI/CD for ML systems (basic pipelines)
-
-### 🤖 LLM Systems (Applied AI Layer)
-- Retrieval-Augmented Generation (RAG)
-- LLM agents and tool usage
-- Prompting for structured outputs
-- Information extraction from unstructured data
-- Hybrid systems combining ML models + LLM reasoning
-
-### 📈 Visualization & BI
-- Power BI
-- Operational dashboards for decision-making
-- Business KPI monitoring
+* C++20 (primary systems language)
+* Python
+* Bash
+* SQL
 
 ---
 
-## 🧠 Theoretical Foundations (Useful Mathematics)
+### 🤖 AI & Machine Learning
 
-### 📊 Machine Learning Theory
-- Bias / variance trade-off
-- Overfitting vs underfitting in real data distributions
-- Cross-validation under time constraints (time series split)
-- Evaluation metrics aligned with business goals
-
-### 🎯 Decision Systems Theory
-- Exploration vs exploitation trade-off
-- Markov Decision Processes (intuitive understanding)
-- Contextual bandits (UCB, Thompson Sampling intuition)
-- Utility-based optimization under constraints
-
-### 📈 Time Series & Forecasting
-- Trend, seasonality, noise decomposition
-- Autocorrelation and lag effects
-- Forecast evaluation under real constraints (stockouts, censoring)
-
-### 🧠 Probability & Statistics (Applied mindset)
-- Conditional probability for decision making
-- Bayesian reasoning under uncertainty
-- Expectation, variance, and risk modeling
-- Sampling bias and real-world data imperfections
+* PyTorch
+* NumPy
+* JAX
+* Scikit-Learn (fundamentals only)
 
 ---
 
-## 🧪 Projects
+### 🚗 Robotics & Autonomous Systems
 
-### 1. Demand Forecasting System (Retail / Supply Chain)
-Predict product demand using time series + external signals, while handling stockout bias and real-world constraints.
+* ROS2
+* Gazebo
+* OpenCV
+* Eigen
+* SLAM Toolkits
 
-### 2. Recommender System (Ranking Engine)
-Build a ranking system for product recommendations with offline evaluation and business-driven metrics.
+---
 
-### 3. Contextual Bandit Simulator (Decision Engine)
-Simulate exploration vs exploitation strategies to optimize sequential decision making under uncertainty.
+### 🧠 Reinforcement Learning
+
+* Gymnasium
+* Stable-Baselines3
+* RLlib
+
+---
+
+### ⚙️ Systems
+
+* Linux
+* Docker
+* Git
+* Profiling & Performance Optimization
+
+---
+
+### ☁️ Infrastructure
+
+* AWS Fundamentals
+* Kubernetes (later)
+* Distributed Computing Basics
+
+---
+
+## 🧠 Mathematical Foundations
+
+### 📐 Linear Algebra
+
+* Vector Spaces
+* Matrix Factorization
+* Eigenvalues & Eigenvectors
+* SVD
+
+---
+
+### 📊 Probability & Statistics
+
+* Bayesian Inference
+* Markov Processes
+* Monte Carlo Methods
+* Probabilistic Modeling
+
+---
+
+### 🎯 Optimization
+
+* Convex Optimization
+* Gradient-Based Optimization
+* Constrained Optimization
+* Numerical Methods
+
+---
+
+### 📈 Information Theory
+
+* Entropy
+* KL Divergence
+* Mutual Information
+
+---
+
+### 📍 Geometry & Robotics Mathematics
+
+* Transformations
+* Rotation Matrices
+* Quaternions
+* Coordinate Systems
+
+---
+
+## 🔬 Specialized Topics
+
+### 🚗 Autonomous Vehicles
+
+* Perception
+* Sensor Fusion
+* Path Planning
+* Motion Prediction
+* Autonomous Navigation
+
+---
+
+### 🤖 Robotics
+
+* SLAM
+* Kalman Filters
+* State Estimation
+* Control Systems
+* Navigation
+
+---
+
+### 🎮 Reinforcement Learning
+
+* MDPs
+* Policy Optimization
+* PPO
+* SAC
+* Offline RL
+
+---
+
+### 🌐 Recommendation & Decision Systems
+
+* Learning to Rank
+* Bandits
+* Graph-Based Recommendation
+* Sequential Recommendation
+
+---
+
+## 🧪 Portfolio Projects
+
+### 1. Autonomous Navigation Simulator
+
+Implement localization, mapping and path planning for an autonomous robot.
+
+---
+
+### 2. Multi-Agent Reinforcement Learning Environment
+
+Train multiple agents to cooperate and compete in a simulated environment.
+
+---
+
+### 3. Autonomous Recommendation Engine
+
+Build a recommender system combining ranking, contextual bandits and reinforcement learning.
+
+---
+
+### 4. Real-Time Decision System
+
+Design an intelligent system capable of making decisions under uncertainty with latency constraints.
 
 ---
 
 ## 🧠 Philosophy
 
-Machine Learning is not just about prediction.
+AI is not only about prediction.
 
-It is about building systems that:
-- understand real-world processes
-- operate under uncertainty
-- learn from imperfect data
-- and ultimately make better decisions at scale
+It is about designing systems that:
+
+* perceive the world
+* reason under uncertainty
+* optimize decisions
+* act autonomously
+* operate reliably at scale
+
+---
